@@ -104,8 +104,8 @@ namespace SubtitleMatcher
                     int addonIndex = newName.LastIndexOf('.');
                     if (addonIndex == -1) return;
                     string extension = Path.GetExtension(sourcePath);
-                    newName = newName.Remove(addonIndex + 1);
-                    newName = newName.Insert(addonIndex + 1, addon + extension);
+                    newName = newName.Remove(addonIndex);
+                    newName = newName.Insert(addonIndex, addon + extension);
                     string newFilePath = Path.Combine(Path.GetDirectoryName(sourcePath), newName);
                     File.Move(sourcePath, newFilePath);
                 }

@@ -22,7 +22,7 @@
         </Border>
         <Label x:Name="LeftListNum" Content="{Binding ElementName=LeftList, Path=Items.Count}" Margin="30,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="25" HorizontalContentAlignment="Center"/>
         <Label x:Name="RightListNum" Content="{Binding ElementName=RightList, Path=Items.Count}" Margin="0,30,30,0" HorizontalAlignment="Right" VerticalAlignment="Top" Height="25" Width="40" HorizontalContentAlignment="Center"/>
-        <TextBox x:Name="Addon" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="90,0,0,60" TextWrapping="Wrap" Text="chi" Width="80" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="Addon" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="90,0,0,60" TextWrapping="Wrap" Text=".chi" Width="80" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button x:Name="ExecButton" Content="执行" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,90,60" Width="80" Height="25" Click="ExecButton_Click"/>
         <Button x:Name="LeftUp" Content="上" HorizontalAlignment="Left" Margin="38,60,0,0" VerticalAlignment="Top" Width="25" Height="25"/>
         <Button x:Name="LeftDown" Content="下" HorizontalAlignment="Left" Margin="38,90,0,0" VerticalAlignment="Top" Width="25" Height="25"/>
